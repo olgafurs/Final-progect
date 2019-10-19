@@ -2,30 +2,650 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="The best qualified medical assistance in our medical center. Our experts are ready to help at any time convenient for you">
+  <title>Medical center "CarePoint" </title>
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
+
+  <header>
+    <div class="container">
+      <a class="logo" href="/" target="_A" title="Main Page"><img src="./images/logo.png" alt="Logo"></a>
+      <ul class="contacts">
+        <li>
+          <div class="icon">
+            <span class="fas-contc"><i class="far fa-clock"></i></span>
+          </div>
+          <div class="contc">
+            <p>WORK TIME: 09:00-17:00</p>
+            <p>Saturday and Sunday - CLOSED</p>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <span class="fas-contc"><i class="fas fa-envelope"></i></span>
+          </div>
+          <div class="contc">
+            <p>MAIL US</p>
+            <p><a href="mailto:free@psdfrebies.com" title="Our Email">free@psdfrebies.com</a></p>
+          </div>
+        </li>
+        <li>
+          <div class="icon">
+            <span class="fas-contc"><i class="fas fa-mobile-alt"></i></span>
+          </div>
+          <div class="contc">
+            <p>CALL US</p>
+            <p><a href="tel:+12345678900" title="Our Telephone Number">+123 4567 8900</a></p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <nav class="main-menu ">
+        <ul>
+          <li><a href="#" target="_A" title="Home Page">Home</a></li>
+          <li><a href="#" target="_A" title="About">About</a></li>
+          <li><a href="#" target="_A" title="Services">Services</a></li>
+          <li><a href="#" target="_A" title="Gallery">Gallery</a></li>
+          <li><a href="#" target="_A" title="Blog">Blog</a></li>
+          <li><a href="#" target="_A" title="Contact us">Contact us</a></li>
+        </ul>
+      </nav>
+      <div class="sotial">
+        <ul>
+          <li><a class="fas-sotial" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                class="fab fa-facebook-f"></i></a></li>
+          <li><a class="fas-sotial" href="https://www.google.ru" target="_A" title="Google"><i
+                class="fab fa-google-plus-g"></i></a></li>
+          <li><a class="fas-sotial" href="https://vk.com" target="_A" title="VK"><i class="fab fa-vk"></i></a></li>
+          <li><a class="fas-sotial" href="https://www.youtube.com/" target="_A" title="YouTube"><i
+                class="fab fa-youtube"></i></a></li>
+          <li><a class="fas-sotial" href="https://www.linkedin.com/" target="_A" title="LinkedIn"><i
+                class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
     <div class="hamburger-menu">
-        <input id="menu__toggle" type="checkbox" />
-        <label class="menu__btn" for="menu__toggle">
-          <span></span>
-        </label>
-        <ul class="menu__box">
-          <li><a class="menu__item" href="#">Главная</a></li>
-          <li><a class="menu__item" href="#">Проекты</a></li>
-          <li><a class="menu__item" href="#">Команда</a></li>
-          <li><a class="menu__item" href="#">Блог</a></li>
-          <li><a class="menu__item" href="#">Контакты</a></li>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-btn" for="menu-toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu-box ">
+        <a class="logo" href="/" target="_A" title="Main Page"><img src="./images/logo.png" alt="Logo"></a>
+        <ul class="contacts">
+          <li>
+            <div class="icon">
+              <span class="fas-contc"><i class="far fa-clock"></i></span>
+            </div>
+            <div class="contc">
+              <p>WORK TIME: 09:00-17:00</p>
+              <p>Saturday and Sunday - CLOSED</p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-contc"><i class="fas fa-envelope"></i></span>
+            </div>
+            <div class="contc">
+              <p>MAIL US</p>
+              <p><a href="mailto:free@psdfrebies.com" title="Our Email">free@psdfrebies.com</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-contc"><i class="fas fa-mobile-alt"></i></span>
+            </div>
+            <div class="contc">
+              <p>CALL US</p>
+              <p><a href="tel:+12345678900" title="Our Telephone Number">+123 4567 8900</a></p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="div-menu-item">
+          <li><a class="menu-item" href="#" target="_A" title="Home Page">Home</a></li>
+          <li><a class="menu-item" href="#" target="_A" title="About">About</a></li>
+          <li><a class="menu-item" href="#" target="_A" title="Services">Services</a></li>
+          <li><a class="menu-item" href="#" target="_A" title="Gallery">Gallery</a></li>
+          <li><a class="menu-item" href="#" target="_A" title="Blog">Blog</a></li>
+          <li><a class="menu-item" href="#" target="_A" title="Contact us">Contact us</a></li>
+        </div>
+        <div class="sotial">
+          <ul>
+            <li><a class="fas-sotial" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                  class="fab fa-facebook-f"></i></a></li>
+            <li><a class="fas-sotial" href="https://www.google.ru" target="_A" title="Google"><i
+                  class="fab fa-google-plus-g"></i></a></li>
+            <li><a class="fas-sotial" href="https://vk.com" target="_A" title="VK"><i class="fab fa-vk"></i></a></li>
+            <li><a class="fas-sotial" href="https://www.youtube.com/" target="_A" title="YouTube"><i
+                  class="fab fa-youtube"></i></a></li>
+            <li><a class="fas-sotial" href="https://www.linkedin.com/" target="_A" title="LinkedIn"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+        </div>
+    </div>
+  </header>
+  <!------------------------------------------------------------>
+
+  <section class="main-banner">
+    <div class="container">
+      <div class="main-banner-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1>We have Best Medicare plan options for you</h1>
+              <p class="banner">Sed ut perspiciatis unde omnis iste natus error sit vo&shy;luptatem occusantium
+                doloremque
+                laudantium.</p>
+            </div>
+            <div class="carousel-item">
+              <h1>We have the best specialists</h1>
+              <p class="banner">Sed ut perspiciatis unde omnis iste natus error sit vo&shy;luptatem occusantium
+                doloremque
+                laudantium.</p>
+            </div>
+            <div class="carousel-item">
+              <h1>We have only modern equipment</h1>
+              <p class="banner">Sed ut perspiciatis unde omnis iste natus error sit vo&shy;luptatem occusantium
+                doloremque
+                laudantium.</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn1">READ MORE</button>
+      </div>
+    </div>
+  </section>
+  <!------------------------------------------------------------>
+
+  <section class="services">
+    <div class="container">
+
+      <div class="best-treatment">
+        <img src="./images/services-1.png" alt="services-1">
+        <h2>Best Treatment</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusan&shy;tium doloremque laudantium.</p>
+
+      </div>
+      <div class="emergency-help">
+        <img src="./images/services-2.png" alt="services-2">
+        <h2>Emergency Help</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusan&shy;tium doloremque laudantium.</p>
+      </div>
+      <div class="medical-staff">
+        <img src="./images/services-3.png" alt="services-3">
+        <h2>Medical Staff</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusan&shy;tium doloremque laudantium.</p>
+      </div>
+      <div class="qualified-doctors">
+        <img src="./images/services-4.png" alt="services-4">
+        <h2>Qualified Doctors</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusan&shy;tium doloremque laudantium.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!------------------------------------------------------------>
+  <section class="why-choose-us">
+    <div class="container">
+
+      <div class="item1">
+        <h2>Why Choose Us?</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque, totam rem
+          aperi&shy;am, eaque lpsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.</p>
+      </div>
+
+      <div class="item2">
+        <img src="./images/professional-1.png" alt="professional-1">
+        <h3>Professional</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.</p>
+      </div>
+
+      <div class="item3">
+        <img src="./images/girl.png" alt="girl">
+      </div>
+
+      <div class="item4">
+        <img src="./images/professional-2.png" alt="professional-2">
+        <h3>Professional</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.</p>
+      </div>
+
+      <div class="item5">
+        <img src="./images/professional-3.png" alt="professional-2">
+        <h3>Professional</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.</p>
+      </div>
+
+      <div class="item6">
+        <img src="./images/professional-4.png" alt="professional-3">
+        <h3>Professional</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.</p>
+      </div>
+    </div>
+  </section>
+  <!------------------------------------------------------------>
+
+  <section class="best-feature">
+    <div class="container">
+      <div class="row">
+        <div class="feature col-lg-3 col-md-6 col-sm-12 col-12">
+          <img src="./images/best-feature-1.png" alt="best-feature-1">
+          <div class="feature-span"><span class="feature-span-s" data-count="1000"></span><span>+</span></div>
+
+          <img src="./images/rectangle-best-feature.jpg" alt="rectangle-best-feature">
+          <h3>Happy Customers</h3>
+        </div>
+        <div class="feature col-lg-3 col-md-6 col-sm-12 col-12">
+          <img src="./images/best-feature-2.png" alt="best-feature-2">
+          <span class="feature-span" data-count="2017"></span>
+          <img src="./images/rectangle-best-feature.jpg" alt="rectangle-best-feature">
+          <h3>Top Hospitality</h3>
+        </div>
+        <div class="feature col-lg-3 col-md-6 col-sm-12 col-12">
+          <img src="./images/best-feature-3.png" alt="best-feature-3">
+          <span class="feature-span" data-count="1105"></span>
+          <img src="./images/rectangle-best-feature.jpg" alt="rectangle-best-feature">
+          <h3>Innovative Approach</h3>
+        </div>
+        <div class="feature col-lg-3 col-md-6 col-sm-12 col-12">
+          <img src="./images/best-feature-4.png" alt="best-feature-4">
+          <div class="feature-span"><span class="feature-span-s" data-count="500"></span><span>+</span></div>
+          <img src="./images/rectangle-best-feature.jpg" alt="rectangle-best-feature">
+          <h3>Lung Replacement</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------>
+
+  <section class="text-area">
+    <div class="container">
+
+      <div class="item1">
+        <h2>How we works</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudan&shy;tium. Sed ut
+          perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.</p>
+      </div>
+
+      <div class="item2">
+        <img src="./images/img-text-area-1.jpg" alt="img-text-area-1">
+        <p class="lorem">Lorem ipsum dolor sit amet</p>
+        <p class="april">April 19,2017 | Dr. Jon Doe</p>
+        <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque
+          laudantium.</p>
+      </div>
+
+      <div class="item3">
+        <img src="./images/img-text-area-2.jpg" alt="img-text-area-2">
+        <p class="lorem">Lorem ipsum dolor sit amet</p>
+        <p class="april">April 19,2017 | Dr. Jon Doe</p>
+        <p class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque
+          laudantium.</p>
+      </div>
+      <div class="item5">
+        <button class="btn2">READ MORE</button>
+      </div>
+
+      <div class="item4">
+        <h2>Our creative</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit vo&shy;luptatem occusantium doloremque laudantium. Sed ut
+          perspiciatis unde omnis iste natus error sit voluptatem</p>
+
+
+        <div class="accordion">
+          <div class="accordion_container">
+            <div class="accordion-main">
+              <div class="accordion_head"> <span class="accordion-fas"><i class="fas fa-caret-right"></i></span> <span
+                  class="hert-treatment">Heart Treatment</span></div>
+              <div class="accordion_body" id="a1" style="display: none;">
+                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
+                  IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+              </div>
+            </div>
+            <div class="accordion-main">
+              <div class="accordion_head"><span class="accordion-fas"><i class="fas fa-caret-right"></i></span><span
+                  class="hert-treatment">Heart Treatment</span></div>
+              <div class="accordion_body" style="display: none;">
+                <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
+                  IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+              </div>
+            </div>
+            <div class="accordion-main">
+              <div class="accordion_head"><span class="accordion-fas"><i class="fas fa-caret-right"></i></span><span
+                  class="hert-treatment">Heart Treatment</span></div>
+              <div class="accordion_body" style="display: none;">
+                <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
+                  IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+              </div>
+            </div>
+            <div class="accordion-main">
+              <div class="accordion_head"><span class="accordion-fas"><i class="fas fa-caret-right"></i></span><span
+                  class="hert-treatment">Heart Treatment</span></div>
+              <div class="accordion_body" style="display: none;">
+                <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
+                  IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!------------------------------------------------------------>
+
+  <section class="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.
+      </p>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="./images/gallery-1.jpg">
+            <img class="img-fluid" src="./images/gallery-1.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="./images/gallery-2.jpg">
+            <img class="img-fluid" src="./images/gallery-2.jpg" alt="...">
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="./images/gallery-3.jpg">
+            <img class="img-fluid" src="./images/gallery-3.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="./images/gallery-4.jpg">
+            <img class="img-fluid" src="./images/gallery-4.jpg" alt="...">
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="./images/gallery-5.jpg">
+            <img class="img-fluid" src="./images/gallery-5.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-6 thumb">
+          <a data-fancybox="gallery" href="./images/gallery-6.jpg">
+            <img class="img-fluid" src="./images/gallery-6.jpg" alt="...">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------>
+
+  <section class="our-doctors">
+    <div class="container">
+
+      <div class="team">
+        <h2>Our Team</h2>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium. Sed ut
+          perspiciatis unde omnis iste natus error sit voluptatem occusantium doloremque laudantium.</p>
+      </div>
+      <div class="doctor-grid">
+        <div class="doctor1">
+          <img src="./images/doctor-foto-1.png" alt="">
+          <p class="dr-Ricky-Doe">Dr Ricky Doe</p>
+          <p class="assistant-surgeon">Assistant Surgeon</p>
+          <p class="fas-i-cont">
+            <a class="fas-i" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="fas-i" href="https://www.google.com" target="_A" title="Google"><i
+                class="fab fa-google-plus-g"></i></a>
+            <a class="fas-i" href="https://www.vk.com" target="_A" title="VK"><i class="fab fa-vk"></i></a>
+          </p>
+
+        </div>
+        <div class="doctor2">
+          <img src="./images/doctor-foto-2.png" alt="">
+          <p class="dr-Ricky-Doe">Dr Ricky Doe</p>
+          <p class="assistant-surgeon">Assistant Surgeon</p>
+          <p>
+            <a class="fas-i" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="fas-i" href="https://www.google.com" target="_A" title="Google"><i
+                class="fab fa-google-plus-g"></i></a>
+            <a class="fas-i" href="https://www.vk.com" target="_A" title="VK"><i class="fab fa-vk"></i></a>
+
+          </p>
+        </div>
+        <div class="doctor3">
+          <img src="./images/doctor-foto-3.png" alt="">
+          <p class="dr-Ricky-Doe">Dr Ricky Doe</p>
+          <p class="assistant-surgeon">Assistant Surgeon</p>
+          <p>
+            <a class="fas-i" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="fas-i" href="https://www.google.com" target="_A" title="Google"><i
+                class="fab fa-google-plus-g"></i></a>
+            <a class="fas-i" href="https://www.vk.com" target="_A" title="VK"><i class="fab fa-vk"></i></a>
+          </p>
+        </div>
+        <div class="doctor4">
+          <img src="./images/doctor-foto-4.png" alt="">
+          <p class="dr-Ricky-Doe">Dr Ricky Doe</p>
+          <p class="assistant-surgeon">Assistant Surgeon</p>
+          <p>
+            <a class="fas-i" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="fas-i" href="https://www.google.com" target="_A" title="Google"><i
+                class="fab fa-google-plus-g"></i></a>
+            <a class="fas-i" href="https://www.vk.com" target="_A" title="VK"><i class="fab fa-vk"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------>
+
+  <section class="quick-action-bar">
+    <div class="container">
+      <p class="special-offer">New Patient Special Offer Complimentary Consultation</p>
+      <button class="btn3">READ MORE</button>
+    </div>
+  </section>
+
+  <!------------------------------------------------------------>
+
+  <footer>
+    <div class="container">
+      <div class="get-in-touch">
+        <h3>Get in Touch</h3>
+        <ul class="contacts-footer">
+          <li>
+            <div class="icon">
+              <span class="fas-footer"><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="contc-footer">
+              <p><a href="mailto:free@psdfrebies.com">free@psdfrebies.com</a></p>
+              <p><a href="mailto:free@psdfrebies.com">free@psdfrebies.com</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer"><i class="fas fa-mobile-alt"></i></span>
+            </div>
+            <div class="contc-footer">
+              <p><a href="tel:+12345678900">+123 4567 8900</a></p>
+              <p><a href="tel:+12345678900">+123 4567 8900</a></p>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer"><i class="fas fa-map-marker-alt"></i></span>
+            </div>
+            <div class="contc-footer">
+              <p>123, Main Road, New City,</p>
+              <p>My Country 123456</p>
+            </div>
+          </li>
+          <li>
+
+            <div class="sotial-footer">
+              <ul>
+                <li><a class="fas-sotial-footer" href="https://www.facebook.com" target="_A" title="Facebook"><i
+                      class="fab fa-facebook-f"></i></a></li>
+                <li><a class="fas-sotial-footer" href="https://www.google.com" target="_A" title="Google"><i
+                      class="fab fa-google-plus-g"></i></a></li>
+                <li><a class="fas-sotial-footer" href="https://www.vk.com" target="_A" title="VK"><i
+                      class="fab fa-vk"></i></a></li>
+                <li><a class="fas-sotial-footer" href="https://www.youtube.com" target="_A" title="YouTube"><i
+                      class="fab fa-youtube"></i></a></li>
+                <li><a class="fas-sotial-footer" href="https://www.linkedin.com" target="_A" title="LinkedIn"><i
+                      class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </div>
 
+      <div class="quick-links">
+        <h3>Quick Links</h3>
 
+        <ul>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="About Us">About Us</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Blog">Blog</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Contact Us">Contact Us</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Faq">Faq</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Insurance">Insurance</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Contact Us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="our-services">
+        <h3>Our Services</h3>
+        <ul>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Work injuries">Work injuries</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Sport injuries">Sport injuries</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Cold Laser Therapy">Cold Laser Therapy</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Massage Therapy">Massage Therapy</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Physiotherapy">Physiotherapy</a>
+          </li>
+          <li>
+            <div class="icon">
+              <span class="fas-footer-list"><i class="fas fa-caret-right"></i></span>
+            </div>
+            <a href="#" target="_A" title="Chiropratic Therapy">Chiropratic Therapy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="enquiry-form">
+        <h3>Enquiry Form</h3>
+        <form class="form" method="post" action="#">
+          <label for="">Name <br>
+            <input type="text" name="fam">
+          </label><br>
+          <label for="">Phone<br>
+            <input type="text" name="tel">
+          </label><br>
+          <label for="">Message<br>
+            <textarea name="mes" id=""></textarea>
+          </label><br>
+          <input class="btn4" type="submit" value="SUBMIT">
+        </form>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script src="https://kit.fontawesome.com/8b855095f2.js" crossorigin="anonymous"></script>
+  <script src="./js/libs.min.js"></script>
+  <!-- <script src="./libs/jquery/src/jquery.js"></script> -->
+  <script src="./libs/waypoints/waypoints.min.js"></script>
+  <script src="./libs/animateNumber/jquery.animateNumber.min.js"></script>
+  <script src="./js/common.js"></script>
 </body>
 
 </html>
