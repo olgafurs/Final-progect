@@ -72,7 +72,7 @@ gulp.task('code', function() {
         .pipe(gulp.dest('dist/images')); // Выгружаем на продакшен
 });
 
-gulp.task('build', /*['clean', 'img', 'sass', 'scripts'],*/ function() {
+gulp.task('build', ['clean', 'img', 'sass', 'scripts'], function() {
 
     var buildCss = gulp.src([ // Переносим CSS стили в продакшен
         'app/css/main.css',
